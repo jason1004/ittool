@@ -3,8 +3,9 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/ittool/docs/',
+  base: '/ittool/dist/',
+  root: './',
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   }
 }) 
